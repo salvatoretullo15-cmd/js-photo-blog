@@ -27,6 +27,7 @@ img{
 .title{
     display: flex;
     justify-self: center;
+    font-family: "Edu Tas Beginner";
 }
 
 .row{
@@ -49,4 +50,5 @@ img{
     box-shadow: 0 10px 20px;
     display: flex;
     justify-self: center;
+    font-family: "Sometype Mono";
 }
