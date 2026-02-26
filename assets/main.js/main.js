@@ -12,7 +12,7 @@ fetch(endpoint)
             console.log(title, url, date);
             rowEl.innerHTML += `
             <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                <div class="card">
+                <div class="card" onclick="mostraOverlay('${url}')">
                     <img class="pin" src="/img/pin.svg" alt="un semplice pin">
                     <img src="${url}" class="p-2 " alt="${title}">
                     <div class="card-body">
@@ -27,4 +27,5 @@ fetch(endpoint)
         })
         
     .catch(error => {
+        //codice per far qualcosa in caqso di errore 
         console.error(error)})
